@@ -1,0 +1,18 @@
+*{margin:0;padding:0;list-style: none;}
+a{text-decoration:none;color:#000;}
+
+.nav{width:100%;max-width: 1215px;height: 40px;background: #000;line-height: 40px;padding-left: 150px;}
+.nav a{padding:0 40px;color:#fff;}
+body{background: #666;}
+#introduce { width:400px; height:370px; position:absolute; left:50%; background:#fff; z-index:11; 
+	margin-left:-200px; top:-450px; padding-top:30px;border:1px solid #ccc;}
+#introduce .close{position: absolute;top:-10px;right:-10px;width: 20px;height: 20px;background: #fff;line-height: 20px;
+	text-align: center;border-radius: 50%;}
+#introduce p{ line-height:30px; font-size:14px; -font-family:'宋体';  margin:0 20px 0 30px;}
+#introduce p span{ font-weight:700;}
+
+#contactme{ z-index:10; position:absolute; width:0px; overflow:hidden;height:340px;left:50%; top:50%;margin-top: 
+-170px;margin-left: -200px; /*opacity:0; filter:alpha(opacity=0);*/ padding-top:60px; display:none;background: #fff;}
+#contactme .close{position: absolute;top:0px;right:0px;width: 20px;height: 20px;background: #fff;line-height: 20px;
+	text-align: center;border-radius: 50%;}
+#contactme p{ line-height:50px; margin:0 30px; font-size:16px; color:#000;}
